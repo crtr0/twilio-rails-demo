@@ -2,10 +2,16 @@
 
 Hey there! If you're interested in learning how to integrate Twilio[http://twilio.com/api] into your Rails application, you've got to the right place!  This demo is currently quite simple, but over time we'll build it out to include more interesting scenarios that illustrate how easy it is to add voice and messaging to your app.
 
-Right now, the files that you'll want to peak at are:
+Right now, the files that you'll want to peek at are:
 * Gemfile
 * config/initializers/twilio_config.rb
 * config/routes.rb
 * app/controllers/twilio_controller.rb
 * app/views/twilio/process_sms.xml.erb
+
+In order to get this demo running, you'll need to:
+1. Deploy the app
+2. Create a free Twilio account: http://twilio.com
+3. Configure the Sandbox number to point to your SMS URL: http://yourdomain/twilio/process_sms
+4. Send your app a text! Remember to prepend your text message with your Sandbox PIN.
 
