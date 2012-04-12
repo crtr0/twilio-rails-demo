@@ -15,3 +15,4 @@ In order to get this demo running, you'll need to:
 3. Configure the Sandbox number to point to your SMS URL: http://yourdomain/twilio/process_sms
 4. Send your app a text! Remember to prepend your text message with your Sandbox PIN.
 
+P.S. This app is optimized for deployment on Heroku and includes the Postgres database connector in its Gemfile.  Swap that line out for something else (mysql2, etc.) if you're deploying elsewhere.
